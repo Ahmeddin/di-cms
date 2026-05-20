@@ -161,7 +161,7 @@ npm run dev                # http://localhost:3000
 ---
 
 ## 🚀 Deployment Notes
-* The app can be deployed to **Vercel**, **Netlify**, or any Node‑compatible host.
+* The app is deployed live at **https://dicms.vercel.app** (Vercel). It can also be deployed to Netlify or any Node‑compatible host.
 * Ensure the environment variables above are set in the hosting platform.
 * When deploying, run `npx prisma generate && npx prisma db push` as part of the build step.
 * For **Docker** production, use the provided `Dockerfile` (not shown) and the `docker-compose.yml` as a reference.
