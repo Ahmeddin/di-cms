@@ -1,4 +1,7 @@
 import type { Metadata } from "next";
+
+export const dynamic = "force-dynamic";
+export const fetchCache = "force-no-store";
 import localFont from "next/font/local";
 import "./globals.css";
 import { cn } from "@/lib/utils";

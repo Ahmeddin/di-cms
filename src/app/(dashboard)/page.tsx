@@ -10,6 +10,9 @@ import {
 } from "@/features/dashboard/components/dashboard-ui";
 import { formatPrice } from "@/lib/utils";
 import { DashboardSkeleton, StatsGridSkeleton } from "@/components/skeletons";
+
+export const dynamic = "force-dynamic";
+export const fetchCache = "force-no-store";
 import { Skeleton } from "@/components/ui/skeleton";
 
 export const metadata = {
