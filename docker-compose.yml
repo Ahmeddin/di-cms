@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:16
+    container_name: di-cms-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: di_cms
+    ports:
+      - "5432:5432"
+    volumes:
+      - di_cms_pgdata:/var/lib/postgresql/data
+volumes:
+  di_cms_pgdata:
+
